@@ -8,6 +8,7 @@ create table [Account](
 	fullname varchar(50) not null,
 	gender varchar(10),
 	mobile varchar(12),
+	[password] varchar(25),
 	accountImg varchar(100),
 	[role] varchar(5) not null,
 	[status] varchar(10) not null
